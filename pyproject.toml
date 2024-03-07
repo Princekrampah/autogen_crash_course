@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sections"
+version = "0.1.0"
+description = ""
+authors = ["Princekrampah <jsksprince@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pyautogen = "^0.2.14"
+duckduckgo-search = "^4.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
